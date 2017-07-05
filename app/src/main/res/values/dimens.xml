@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="marginAll">40dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+</resources>

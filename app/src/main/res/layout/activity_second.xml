@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.damasofc.myform.SecondActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/greet"
+            android:layout_width="match_parent"
+            android:text="@string/greeter"
+            android:checked="true"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/farewall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/farewell"/>
+    </RadioGroup>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_below="@id/radioGroup"
+        android:layout_margin="@dimen/marginAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/seekBar"
+        android:id="@+id/txtSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginAll"
+        android:layout_marginRight="@dimen/marginAll"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textSize"/>
+    <Button
+        android:id="@+id/btnNext2"
+        android:background="@color/colorAccent"
+        android:text="@string/nextStep"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

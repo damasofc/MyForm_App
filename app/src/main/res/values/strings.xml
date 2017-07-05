@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyForm</string>
+    <string name="introNombre">Introduce your name</string>
+    <string name="nameRequired">Name is required</string>
+    <string name="nextStep">Next Step</string>
+    <string name="greeter">Greeter</string>
+    <string name="farewell">Farewell</string>
+    <string name="mensajeEdadMayor">The max age allowed is: 60 years old.</string>
+    <string name="mensajeEdadMenor">The min age allowed is: 16 years old.</string>
+    <string name="compartirBtn">Share</string>
+</resources>
